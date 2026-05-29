@@ -1,0 +1,34 @@
+# run outputs
+results/
+results_*/
+logs/
+logs_*/
+lightning_logs/
+wandb/
+*.log
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+.python-version
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# large VAE checkpoint (~320 MB) — distribute as a release asset or via Git LFS
+lamp/checkpoints/*.pth
+lamp/checkpoints/*.ckpt
+!lamp/checkpoints/README.md
+
+# Fresnel measured data — not redistributed (Institut Fresnel database terms);
+# obtain separately, see data/Fresnel/README.md
+data/Fresnel/*.exp
+data/Fresnel/*.npy
+data/Fresnel/*.mat
+!data/Fresnel/README.md

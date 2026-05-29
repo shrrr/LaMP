@@ -1,0 +1,14 @@
+torch>=1.12
+torchvision
+torchmetrics
+numpy
+scipy
+matplotlib
+tqdm
+configargparse
+omegaconf
+einops
+lpips
+pytorch-lightning
+tensorboard
+pyyaml
